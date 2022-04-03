@@ -451,7 +451,7 @@
 	top: 50px;
 	overflow: hidden;
 	width: 270px;
-	padding-bottom: 70px;
+	padding-bottom: 60px;
 	@media ($desktopBig) {
 		width: 240px;
 	}
@@ -471,8 +471,11 @@
 	}
 }
 .slider_0304 {
-	height: 730px;
+	height: 785px;
 	margin-top: 20px;
+	@media ($desktopBig) {
+		height: 730px;
+	}
 	@media ($tablet2) {
 		height: auto;
 	}

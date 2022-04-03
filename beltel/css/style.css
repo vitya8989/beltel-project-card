@@ -305,7 +305,7 @@ img {
   top: 50px;
   overflow: hidden;
   width: 270px;
-  padding-bottom: 70px
+  padding-bottom: 60px
 }
 .project_card_0304__slider_title {
   font-weight: 700;
@@ -313,7 +313,7 @@ img {
   line-height: 28px
 }
 .slider_0304 {
-  height: 730px;
+  height: 785px;
   margin-top: 20px
 }
 .slider_0304__slide.swiper-slide {
@@ -537,6 +537,9 @@ img {
   }
   .project_card_0304__slider_wr {
     width: 240px
+  }
+  .slider_0304 {
+    height: 730px
   }
 }
 @media (max-width:1199px) {
