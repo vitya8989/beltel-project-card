@@ -104,7 +104,7 @@ img {
   line-height: 60px
 }
 .project_card_0304__main_img {
-  margin-top: 150px;
+  margin-top: 40px;
   position: relative;
   padding-top: 60%
 }
@@ -487,9 +487,6 @@ img {
   .project_card_0304__title {
     font-size: 36px;
     line-height: 48px
-  }
-  .project_card_0304__main_img {
-    margin-top: 80px
   }
   .project_card_0304__text {
     font-size: 18px;
