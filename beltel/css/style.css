@@ -313,11 +313,11 @@ img {
   line-height: 28px
 }
 .slider_0304 {
-  height: 785px;
+  height: 515px;
   margin-top: 20px
 }
 .slider_0304__slide.swiper-slide {
-  height: calc((100% - 50px)/ 3)
+  height: calc((100% - 25px)/ 2)
 }
 .another_project_0304__img {
   position: relative;
@@ -402,6 +402,10 @@ img {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg)
+}
+.slider_0304__btn_next.swiper-button-disabled,
+.slider_0304__btn_prev.swiper-button-disabled {
+  pointer-events: none
 }
 .slider_0304__btn_next {
   -webkit-transform: rotate(180deg);
@@ -536,7 +540,7 @@ img {
     width: 240px
   }
   .slider_0304 {
-    height: 730px
+    height: 465px
   }
 }
 @media (max-width:1199px) {

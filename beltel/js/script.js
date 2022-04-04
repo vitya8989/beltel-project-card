@@ -14,7 +14,7 @@ if (window.innerWidth <= 959) {
         spaceBetween: 25,
         slidesPerView: 1,
         grid: {
-            rows: 3,
+            rows: 2,
         },
     });
 }
@@ -49,7 +49,7 @@ window.addEventListener('resize', () => {
             slidesPerView: 1,
             spaceBetween: 20,
             grid: {
-                rows: 3,
+                rows: 2,
             },
         });
     }

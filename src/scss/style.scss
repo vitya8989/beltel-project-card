@@ -468,17 +468,17 @@
 	}
 }
 .slider_0304 {
-	height: 785px;
+	height: 515px;
 	margin-top: 20px;
 	@media ($desktopBig) {
-		height: 730px;
+		height: 465px;
 	}
 	@media ($tablet2) {
 		height: auto;
 	}
 }
 .slider_0304__slide.swiper-slide {
-	height: calc((100% - 50px) / 3);
+	height: calc((100% - 25px) / 2);
 	@media ($tablet2) {
 		height: auto;
 		max-width: 270px;
@@ -572,6 +572,9 @@
 	&::after {
 		top: 17px;
 		transform: rotate(-45deg);
+	}
+	&.swiper-button-disabled {
+		pointer-events: none;
 	}
 }
 .slider_0304__btn_prev {
