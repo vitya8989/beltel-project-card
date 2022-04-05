@@ -934,7 +934,7 @@
 	flex: 0 0 360px;
 	padding-left: 60px;
 	min-width: 0;
-	padding-bottom: 65px;
+	padding-bottom: 60px;
 
 	@media ($tablet2) {
 		padding-left: 0;
@@ -945,6 +945,10 @@
 .integration_0304__right_body {
 	position: sticky;
 	top: 40px;
+
+	@media ($desktop) {
+		top: 60px;
+	}
 }
 .integration_0304__right_title {
 	font-size: 16px;
@@ -952,9 +956,9 @@
 }
 .integration_0304__right_link {
 	width: 300px;
-	height: 70px;
+	height: 50px;
 	background: #4FAC29;
-	margin-top: 20px;
+	margin-top: 10px;
 	transition: 0.3s;
 	font-family: Roboto;
 	font-weight: 700;
@@ -978,7 +982,7 @@
 	}
 }
 .integration_0304__right_list_wr {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .integration_0304__right_list_title {
 	font-weight: 700;
@@ -991,7 +995,7 @@
 	padding-left: 30px;
 }
 .integration_0304__right_slider_wr {
-	margin-top: 30px;
+	margin-top: 10px;
 	position: relative;
 }
 .integration_0304__right_slider_title {
@@ -1001,10 +1005,9 @@
 }
 .right_slider_0304 {
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 10px;
 	@media ($tablet2) {
 		overflow: visible;
-		margin-top: 10px;
 	}
 }
 .right_slider_0304__slide {
@@ -1013,7 +1016,7 @@
 	}
 }
 .right_slider_0304__slide_img {
-	padding-top: 80%;
+	padding-top: 60%;
 	position: relative;
 
 	img {

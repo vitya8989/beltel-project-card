@@ -683,7 +683,7 @@ img {
   flex: 0 0 360px;
   padding-left: 60px;
   min-width: 0;
-  padding-bottom: 65px
+  padding-bottom: 60px
 }
 .integration_0304__right_body {
   position: sticky;
@@ -695,9 +695,9 @@ img {
 }
 .integration_0304__right_link {
   width: 300px;
-  height: 70px;
+  height: 50px;
   background: #4fac29;
-  margin-top: 20px;
+  margin-top: 10px;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
@@ -719,7 +719,7 @@ img {
   justify-content: center
 }
 .integration_0304__right_list_wr {
-  margin-top: 20px
+  margin-top: 15px
 }
 .integration_0304__right_list_title {
   font-weight: 700;
@@ -732,7 +732,7 @@ img {
   padding-left: 30px
 }
 .integration_0304__right_slider_wr {
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative
 }
 .integration_0304__right_slider_title {
@@ -742,10 +742,10 @@ img {
 }
 .right_slider_0304 {
   overflow: hidden;
-  margin-top: 15px
+  margin-top: 10px
 }
 .right_slider_0304__slide_img {
-  padding-top: 80%;
+  padding-top: 60%;
   position: relative
 }
 .right_slider_0304__slide_img img {
@@ -1081,6 +1081,9 @@ img {
   .integration_0304 {
     padding: 0 0 20px
   }
+  .integration_0304__right_body {
+    top: 60px
+  }
 }
 @media (max-width:959px) {
   .project_card_0304 {
@@ -1140,8 +1143,7 @@ img {
     width: 325px
   }
   .right_slider_0304 {
-    overflow: visible;
-    margin-top: 10px
+    overflow: visible
   }
   .right_slider_0304__slide {
     max-width: 270px
