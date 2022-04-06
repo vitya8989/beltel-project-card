@@ -6,6 +6,7 @@ new Swiper('.big_slider_0304', {
     },
     spaceBetween: 25,
     slidesPerView: 1,
+    loop: true,
     pagination: {
         el: '.big_slider_0304__pagination',
         type: 'fraction',
@@ -23,9 +24,11 @@ new Swiper('.another_slider_0304', {
 
     breakpoints: {
         960: {
+            loop: true,
             slidesPerView: 4,
         },
         1500: {
+            loop: true,
             spaceBetween: 36,
             slidesPerView: 4,
         }
@@ -42,6 +45,7 @@ new Swiper('.right_slider_0304', {
 
     breakpoints: {
         960: {
+            loop: true,
             slidesPerView: 1,
         },
     }

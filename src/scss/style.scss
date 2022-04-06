@@ -580,6 +580,7 @@
 	}
 	&.swiper-button-disabled {
 		pointer-events: none;
+		opacity: 0.2;
 	}
 }
 .slider_0304__btn_prev {
